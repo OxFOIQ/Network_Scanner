@@ -23,7 +23,7 @@ Install the required dependencies:
   
   OR
   
-* pip3 install -r requirements.txt .
+* pip3 install -r requirements.txt
 * Run the tool with the desired IP range :
 * python QuestorNet.py 192.168.1.0/24
 * Replace 192.168.1.0/24 with the target IP range.
