@@ -21,7 +21,7 @@ Install the required dependencies:
 * pip install pyfiglet
 * pip install scapy
 * Run the tool with the desired IP range :
-* python network_discovery.py 192.168.1.0/24
+* python QuestorNet.py 192.168.1.0/24
 * Replace 192.168.1.0/24 with the target IP range.
 
 
