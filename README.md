@@ -1,9 +1,9 @@
 # QuestorNet
 
-
 QuestorNet is a Python-based utility designed for discovering devices within a specified IP range on a local network. This tool utilizes the Scapy library to send ARP requests and collects responses, providing information about active devices including their IP addresses and MAC addresses.
 
-## Features*
+## Features
+
 - IP Range Scanning: Scan a specified IP range to discover active devices on the network.
 
 - ARP Requests: Use ARP (Address Resolution Protocol) requests to obtain IP-MAC address mappings.
@@ -20,13 +20,12 @@ Install the required dependencies:
 * pip install pyfiglet
 * pip install scapy
 * Run the tool with the desired IP range : 
-- python network_discovery.py 192.168.1.0/24
-- Replace 192.168.1.0/24 with the target IP range.
+-- python network_discovery.py 192.168.1.0/24
+-- Replace 192.168.1.0/24 with the target IP range.
 
 
 ## Example Output
 ![image](https://github.com/MedAmyyne/Network_Scanner/assets/76553571/e033d652-62fe-4ea7-bf57-6663f67ecc78)
-
 
 
 ## Contributions
