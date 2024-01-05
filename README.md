@@ -25,12 +25,7 @@ Install the required dependencies:
 
 
 ## Example Output
-
-IP               MAC Address
------------------------------------
-192.168.1.1      00:1a:2b:3c:4d:5e
-192.168.1.10     08:76:5a:4b:3c:2d
-192.168.1.20     2c:5e:1d:3a:4b:6f
+![image](https://github.com/MedAmyyne/Network_Scanner/assets/76553571/e033d652-62fe-4ea7-bf57-6663f67ecc78)
 
 
 
