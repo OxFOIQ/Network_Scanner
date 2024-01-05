@@ -31,5 +31,5 @@ if __name__ == "__main__":
     banner = pyfiglet.figlet_format("QuestorNet")
     print(banner)
     options = Get_Elements()
-    scanResult = Scan(options.ip)
+    scanResult = Scan(options)
     Display_Result(scanResult)
