@@ -23,13 +23,15 @@ Install the required dependencies:
 - python network_discovery.py 192.168.1.0/24
 - Replace 192.168.1.0/24 with the target IP range.
 
+
 ## Example Output
 
 IP               MAC Address
-----------------------------
+-----------------------------------
 192.168.1.1      00:1a:2b:3c:4d:5e
 192.168.1.10     08:76:5a:4b:3c:2d
 192.168.1.20     2c:5e:1d:3a:4b:6f
+
 
 
 ## Contributions
