@@ -20,7 +20,9 @@ Install the required dependencies:
 
 * pip install pyfiglet
 * pip install scapy
+  
   OR
+  
 * pip3 install -r requirements.txt .
 * Run the tool with the desired IP range :
 * python QuestorNet.py 192.168.1.0/24
