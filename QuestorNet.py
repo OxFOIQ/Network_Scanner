@@ -7,7 +7,7 @@ def Get_Elements():
     parser.add_argument("-t", "--target", dest="target", help="IP address Range / Network Address  With Mask /8 , /16 ,/24 , /32 \n Example 192.168.1.0/24")
     options = parser.parse_args()
     if not options.target:
-        parser.error("[-] Please specify a target IP address range. Use --help for more information.")
+        parser.error("[!!] Please specify a target IP address range or Use --help for more information.")
     return options
 
 def Scan(ip):
@@ -26,9 +26,10 @@ def Display_Result(result_List):
     for device in result_List:
         print(device["ip"] + "\t\t" + device["mac"])
 
+
 if __name__ == "__main__":
     banner = pyfiglet.figlet_format("QuestorNet")
     print(banner)
     options = Get_Elements()
-    scanResult = Scan(options.target)
+    scanResult = Scan(options.ip)
     Display_Result(scanResult)
