@@ -35,6 +35,8 @@ def Display_Result(result_List):
 if __name__ == "__main__":
     banner = pyfiglet.figlet_format("QuestorNet")
     print(banner)
+    print("-"*29+ "By MedAmyyne" + "-"*29)
+    print("="*70)
     options = Get_Elements()
     Display_Result(Scan(options.target))
 
